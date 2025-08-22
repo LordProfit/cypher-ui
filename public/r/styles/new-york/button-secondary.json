@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.cypher-ui.com/schema/registry-item.json",
+  "name": "button-secondary",
+  "type": "registry:example",
+  "author": "cypher-ui (https://ui.cypher-ui.com)",
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "examples/button-secondary.tsx",
+      "content": "import { Button } from \"@/registry/new-york/ui/button\"\n\nexport default function ButtonSecondary() {\n  return <Button variant=\"secondary\">Secondary</Button>\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}

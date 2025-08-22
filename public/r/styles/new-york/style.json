@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.cypher-ui.com/schema/registry-item.json",
+  "name": "style",
+  "type": "registry:style",
+  "author": "cypher-ui (https://ui.cypher-ui.com)",
+  "dependencies": [
+    "tailwindcss-animate",
+    "class-variance-authority",
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "utils"
+  ],
+  "files": [],
+  "tailwind": {
+    "config": {
+      "plugins": [
+        "require(\"tailwindcss-animate\")"
+      ]
+    }
+  },
+  "cssVars": {}
+}
